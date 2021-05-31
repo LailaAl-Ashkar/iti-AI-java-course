@@ -1,12 +1,12 @@
-Code,Name,Continent,Surface Area(KM),Population(M)
-4,"Florence","Europe",80,0.37
-1,"Cairo","Africa",200,18
-2,"Khan Yunis","Asia",108,0.27
-5,"Berlin","Europe",450,0.96
-2,"Nabuls","Asia",592,0.32
-3,"Marrakesh","Africa",10,1
-1,"Alexandria","Africa",75,10
-3,"Casablanca","Africa",12,3.5
-4,"Rome","Europe",70,3
-5,"Bonn","Europe",300,10
-1,"Aswan","Africa",80,20
+Code,Name,Continent,Surface Area(KM),Population(M),isCapital
+4,"Florence","Europe",80,0.37,False
+1,"Cairo","Africa",200,18,True
+2,"Khan Yunis","Asia",108,0.27,False
+5,"Berlin","Europe",450,0.96,True
+2,"Nabuls","Asia",592,0.32,False
+3,"Marrakesh","Africa",10,1,False
+1,"Alexandria","Africa",75,10,False
+3,"Casablanca","Africa",12,3.5,False
+4,"Rome","Europe",70,3,True
+5,"Bonn","Europe",300,10,False
+1,"Aswan","Africa",80,20,False

@@ -4,13 +4,15 @@ public class City {
     private int code;
     private String cityName, continent;
     private double surfaceArea, population;
+    private boolean isCapital;
 
-    public City(int code, String cityName, String continent, double surfaceArea, double population) {
+    public City(int code, String cityName, String continent, double surfaceArea, double population, boolean isCapital) {
         this.code = code;
         this.cityName = cityName;
         this.continent = continent;
         this.surfaceArea = surfaceArea;
         this.population = population;
+        this.isCapital = isCapital;
     }
 
     public int getCode() {
@@ -51,5 +53,13 @@ public class City {
 
     public void setPopulation(double population) {
         this.population = population;
+    }
+
+    public boolean isCapital() {
+        return isCapital;
+    }
+
+    public void setCapital(boolean capital) {
+        isCapital = capital;
     }
 }

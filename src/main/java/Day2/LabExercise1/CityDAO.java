@@ -31,7 +31,7 @@ public class CityDAO {
 
     public City createCity(String[] metadata) {
         City City = new City(Integer.parseInt(metadata[0]), metadata[1], metadata[2], Double.parseDouble(metadata[3]),
-                Double.parseDouble(metadata[4]));
+                Double.parseDouble(metadata[4]), Boolean.parseBoolean(metadata[5]));
         return City;
     }
 }
